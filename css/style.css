@@ -1,0 +1,514 @@
+
+.container-fluid{
+    margin: 0 auto;
+    max-width: 100%;
+    width: 100%;
+}
+header.head {
+    background-color: #213532;
+}
+.container {
+    max-width: 1200px !important;
+    margin: 0 auto;
+    width: 100%;
+}
+a.nav-link.home-btn {
+    font-size: 14px ;
+    letter-spacing: 1px;
+    line-height: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-decoration: none;
+    background: #10baae;
+    padding: 13px 44px !important;
+    margin-right: 20px;
+    border: 3px solid #10baae;
+}
+a.nav-link.story-btn{
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-decoration: none;
+    background: transparent;
+    padding: 13px 23px !important;
+    border: 3px solid #ffffff;
+    margin-right: 20px;
+}
+a.nav-link.buy-btn{
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    color: #e0c48f;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-decoration: none;
+    background: transparent;
+    padding: 13px 32px !important;
+    border: 3px solid #e0c48f;
+}
+a.home-btn:hover{
+    border: 3px solid #10baae;
+    background-color: #e0c48f;
+    color: #213532;
+    transition: 0.5s ease;
+}
+
+a.story-btn:hover{
+    border: 3px solid #10baae;
+    background-color: #e0c48f;
+    color: #213532;
+    transition: 0.5s ease;
+}
+
+a.buy-btn:hover{
+    border: 3px solid #10baae;
+    background-color: #e0c48f;
+    color: #213532;
+    transition: 0.5s ease;
+}
+button.navbar-toggler.collapsed{
+    background-color:#213532;
+}
+span.navbar-toggler-icon {
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAMUlEQVRIie3SoREAIADDwJT9dy6KCUAAl1dVVQF9L2u07dHjJADj5KnuZEXaZ0V6wATQzQwKQvoBVgAAAABJRU5ErkJggg==" )!important;
+}
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 -0.95rem !important;
+}
+
+
+
+
+.banner h1,h5{
+    font-size: 100px;
+    line-height: 120px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Majesti Banner";
+    margin: 0 auto;
+    padding-top: 130px;
+    margin-bottom: 45px;
+    filter: drop-shadow(0px 5px 5px rgba(77,77,77,0.42));
+    text-align: center;
+    width: max-content;
+}
+.banner a{
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    color: #516d69;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-decoration: none;
+    background: #fff;
+    padding: 13px 43px;
+    border: 3px solid #ffffff;
+    text-decoration: none;
+}
+.carousel-caption {
+    bottom: 0 ;
+    top: 5%;
+    text-align: center;
+    width: max-content !important;
+    margin: 0 auto !important;
+}
+.carousel-item {
+    background-image: url(img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+img.d-block.w-100 {
+   display: none;
+}
+.banner a:hover{
+    border: 3px solid #213532;
+    background-color: #e0c48f;
+    color:#10baae ;
+    transition: 0.5s ease;
+    text-decoration: none;
+}
+.row.great{
+    background-color: #213532;
+    margin: 0 auto;
+}
+.great-text{
+font-size: 30px;
+letter-spacing: 3px;
+line-height: 120px;
+color: #e0c48f;
+font-weight: 500;
+font-family: "Majesti Banner";
+text-align: center;
+padding:50px 0 45px 0;
+}
+
+
+.daily-text {
+    background: #f0f0f2;
+    max-width: 100%;
+    padding-bottom: 57px;
+}
+
+.col-md-8.daily-right h2{
+    margin: 0;
+    font-size: 40px;
+line-height: 50px;
+color: #436d67;
+font-weight: 500;
+font-family: "Majesti Banner";
+padding-top: 67px;
+margin-bottom: 38px;
+}
+.col-md-8.daily-right p{
+    margin: 0;
+font-size: 13px;
+line-height: 24px;
+color: #8f9092;
+font-weight: 400;
+font-family: "Montserrat";
+margin-bottom: 62px;
+}
+.col-md-8.daily-right a{
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    color: #436d67;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-decoration: none;
+    background: transparent;
+    padding: 13px 41px;
+    border: 3px solid #436d67;
+}
+.col-md-8.daily-right a:hover{
+    border: 3px solid #10baae;
+    background-color: #e0c48f;
+    color: #213532;
+    transition: 0.5s ease;
+}
+
+
+
+.row.things {
+    display: flex;
+    padding: 0;
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 55px;
+}
+.things-list h3{
+    font-size: 30px;
+line-height: 30px;
+color: #436d67;
+font-weight: 500;
+font-family: "Majesti Banner";
+text-align: center;
+margin-bottom: 18px;
+}
+.things-list p{
+font-size: 13px;
+line-height: 24px;
+color: #8f9092;
+font-weight: 400;
+font-family: "Montserrat";
+}
+img.img-fluid.achieve-img {
+    margin-top: 6px;
+}
+img.img-fluid.quad-img {
+    margin-top: 3px;
+}
+.container.things-list .row>* {
+    width: auto !important;
+    margin: 0 auto;
+}
+
+
+
+
+.look {
+    max-width: 100%;
+    margin:0 auto;
+    background-color: #f0f0f2;
+    padding: 0 0 60px 0;
+}
+.look-content h3{
+    font-size: 40px;
+line-height: 30px;
+color: #436d67;
+font-weight: 500;
+font-family: "Majesti Banner";
+text-align: center;
+margin: 0;
+padding-top: 65px;
+padding-bottom: 35px;
+}
+.look-content p{
+    font-size: 13px;
+    line-height: 24px;
+    color: #8f9092;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+    margin: 0;
+    margin-bottom: 65px;
+}
+
+
+
+.row.footer{
+    margin: 0 auto;
+    background-color: #213532;
+}
+.container.foot-head{
+    text-align: center;
+    padding-top: 22px;
+    padding-bottom: 20px;
+}
+.icon{
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+.icon a{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 29px;
+    font-size: 22px;
+}
+ul.foot-nav{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+    text-align: center;
+}
+.foot-nav a{
+    font-size: 13px;
+    line-height: 24px;
+    color: #c7cccc;
+    font-weight: 400;
+    font-family: "Montserrat";
+    border-right: 1px solid #fff;
+    padding-right: 19px;
+    padding-left: 19px;
+    text-decoration: none;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.icon a:hover{
+    color:#e0c48f;
+    transition: 0.5s ease-in-out;
+}
+.foot-nav a:hover{
+    color:#10baae;
+    transition: 0.5s ease-in-out;
+}
+.row.copy{
+    background:#162724;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-top: 21px;
+    padding-bottom: 22px;
+}
+.copy-right h3{
+    font-size: 13px;
+    line-height: 24px;
+    color: #b0b0b0;
+    font-weight: 300;
+    font-family: "Montserrat";
+    text-align: center;
+    margin: 0;
+}
+img.img-fluid.video {
+    position: absolute;
+    right: 8%;
+    bottom: 5%;
+    width: 85%;
+}
+img.img-fluid.fbanner {
+    position: relative;
+}
+@media only screen and (min-width:1300px){
+.carousel-item {
+    background-image: url(img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.carousel-caption {
+    bottom: 0;
+    top: -3%;
+}
+}
+@media only screen and (min-width:1100px){
+    img.d-block.w-100 {
+        min-height: 620px !important;
+    }
+    .carousel-item {
+        min-height: 620px !important;
+        height: 620px;
+    }
+    .col-md-4.daily-left {
+        width: 46%;
+        float: left;
+        position: relative;
+        right: -225px;
+    }
+    
+    .col-md-8.daily-right {
+        width: 54%;
+        float: right;
+    }
+    img.img-fluid.fbanner {
+        height: 670px;
+    }
+}
+@media only screen and (max-width:1500px){
+    .col-md-8.daily-right {
+        width: 50%;
+        
+    }
+    .col-md-4.daily-left {
+        width: 50%;
+    right: 0px;
+    max-width: 100%;
+    }
+    .col-md-8.daily-right br{
+        display: none;
+    }
+}
+@media only screen and (max-width:1100px){
+    .container.col-sm-12.look-content br {
+        display: none;
+    }
+    .container.col-sm-12.look-content p{
+        width: 85%;
+        margin: 0 auto;
+        padding-bottom: 60px;
+    }
+    .col-md-8.daily-right p br{
+        display: none;
+    }
+    .col-md-8.daily-right h2 br{
+        display: none;
+    }
+    .col-md-4.daily-left {
+        width: auto;
+        right: 0px;
+        max-width: 65%;
+        margin: 0 auto;
+    }
+    .col-md-8.daily-right {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+@media only screen and (max-width: 1500px){
+.banner h1, h5 {
+    font-size: 80px;
+    line-height: 100px;
+}
+}
+@media only screen and (max-width: 1300px){
+.banner h1, h5 {
+    font-size: 70px;
+    line-height:100px;
+    padding-top: 100px;
+}
+}
+@media only screen and (max-width: 1100px){
+    .banner h1, h5 {
+        font-size: 55px;
+    line-height: 90px;
+    padding-top: 30px;
+    margin-bottom: 35px;
+    }
+    }
+    @media only screen and (max-width: 900px){
+        .banner h1, h5 {
+        font-size: 40px;
+        line-height: 65px;
+        padding-top: 20px;
+        }
+        .banner a {
+            padding: 10px 35px;
+        }
+        .col-md-4.daily-left {
+            width: auto;
+            right: 0px;
+            max-width: 100%;
+            margin: 0 auto;
+        }
+        }
+@media only screen and (max-width:700px){
+    ul.navbar.foot-nav{
+        display: block !important;
+    }
+    .foot-nav a{
+        border-right: none;
+    }
+.banner h1, h5 {
+    font-size: 30px;
+    line-height: 55px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.container.carousel-caption.d-none.d-md-block {
+    display: block !important;
+}
+.carousel-caption.d-none.d-md-block{
+    display: block !important;
+}
+.carousel-caption {
+    bottom: 0;
+    top: -10%;
+}
+
+}
+@media only screen and(max-width: 900px){
+    a.nav-link {
+        margin-bottom: 20px !important;
+        margin-top: 10px !important;
+        
+    }
+    div#ca ul li a {
+        width: 45% !important;
+        display: inline-block !important;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width: 770px){
+    .men {
+        width: 45% !important;
+        text-align: left;
+    }
+    .men a.nav-link {
+        margin-bottom: 20px !important;
+        margin-top: 10px !important;
+        width: 100% !important;
+        display: inline-block !important;
+        margin: 0;
+    }
+}
+@media only screen and (max-width: 500px){
+    .banner h1, h5 {
+        font-size: 20px;
+        line-height: 35px;
+        padding-top: 20px;
+        margin-bottom: 15px;
+    }
+    .banner a {
+        padding: 8px 20px;
+    }
+    .carousel-caption {
+        bottom: 0;
+        top: -6%;
+    }
+    
+}
+
